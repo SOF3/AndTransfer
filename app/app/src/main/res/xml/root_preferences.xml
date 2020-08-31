@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:defaultValue="@string/pref_domain_default"
+        app:key="@string/pref_domain_key"
+        app:title="@string/pref_domain_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <CheckBoxPreference
+        app:defaultValue="false"
+        app:key="@string/uses_basic_auth_key"
+        app:title="@string/uses_basic_auth_title" />
+    <EditTextPreference
+        app:key="@string/basic_auth_username_key"
+        app:title="@string/basic_auth_username_title"
+        app:useSimpleSummaryProvider="true" />
+    <EditTextPreference
+        app:inputType="textPassword"
+        app:key="@string/basic_auth_password_key"
+        app:title="@string/basic_auth_password_title"
+        app:useSimpleSummaryProvider="false" />
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndTransfer</string>
+    <string name="malformed_intent">Intent does not contain any uploadable data</string>
+    <string name="error">Error</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_domain_title">Domain</string>
+    <string name="uses_basic_auth_title">Uses HTTP authentication</string>
+    <string name="basic_auth_username_title">HTTP Authentication username</string>
+    <string name="basic_auth_password_title">HTTP authentication password</string>
+    <string name="upload_channel_name">Upload</string>
+</resources>
